@@ -21,6 +21,10 @@
     <Label layoutX="340.0" layoutY="469.0" styleClass="textfield_pass2" text="JUEGOS" />
     <Label layoutX="486.0" layoutY="469.0" styleClass="textfield_pass2" text="TORNEO" />
     <Label layoutX="664.0" layoutY="469.0" styleClass="textfield_pass2" text="REPORTES" />
+    <Button layoutX="151.0" layoutY="456.0" mnemonicParsing="false" onAction="#ActionBotonParticipante" opacity="0.0" prefHeight="54.0" prefWidth="128.0" text="Button" />
+    <Button layoutX="312.0" layoutY="456.0" mnemonicParsing="false" opacity="0.0" prefHeight="54.0" prefWidth="128.0" text="Button" />
+    <Button layoutX="461.0" layoutY="459.0" mnemonicParsing="false" opacity="0.0" prefHeight="54.0" prefWidth="128.0" text="Button" />
+    <Button layoutX="664.0" layoutY="464.0" mnemonicParsing="false" opacity="0.0" prefHeight="54.0" prefWidth="128.0" text="Button" />
   </children>
   <stylesheets>
     <URL value="@../resources/MyStyle.css" />
