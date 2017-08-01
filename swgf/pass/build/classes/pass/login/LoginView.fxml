@@ -48,7 +48,7 @@
         <Label font="$x2" layoutX="31.0" layoutY="288.0" text="CONTRASEÑA:" textFill="WHITE" />
         <Line endX="-104.0" endY="429.0" layoutX="136.0" layoutY="-108.0" startX="223.0" startY="428.0" stroke="$x1" strokeWidth="2.0" />
         <PasswordField fx:id="password" layoutX="197.0" layoutY="287.0" prefWidth="141.0001220703125" styleClass="textfield_pass" />
-        <Button id="entrar" layoutX="82.0" layoutY="405.0" mnemonicParsing="false" prefHeight="32.552734375" prefWidth="239.0" styleClass="button_pass" text="Entrar" textOverrun="ELLIPSIS" />
+        <Button id="entrar" layoutX="82.0" layoutY="405.0" mnemonicParsing="false" onAction="#ActionBotonEntrar" prefHeight="32.552734375" prefWidth="239.0" styleClass="button_pass" text="Entrar" textOverrun="ELLIPSIS" />
       </children>
     </Pane>
   </children>
