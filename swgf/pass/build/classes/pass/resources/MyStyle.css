@@ -1,0 +1,29 @@
+.background_pass{
+    -fx-background-color: #424242;
+}
+.background_pass2{ 
+    -fx-background-color: #212121;
+}
+.background_pass3{ 
+    -fx-background-color: #000000;
+}
+.textfield_pass{ 
+    -fx-background-color: #212121;
+    -fx-text-fill: #ffffff;
+    -fx-font-size:15px;
+}
+.textfield_pass2{ 
+    -fx-background-color: #212121;
+    -fx-text-fill: #ffffff;
+    -fx-font-size:20px;
+}
+.textfield_pass3{ 
+    -fx-background-color: #000000;
+    -fx-text-fill: #ffffff;
+    -fx-font-size:20px;
+}
+.button_pass{ 
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #212121;
+    -fx-font-size:18px;
+}

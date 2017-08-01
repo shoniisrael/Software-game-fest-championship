@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="1039.0" styleClass="background_pass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pass.login.LoginController">
+  <children>
+    <ImageView id="pass" fitHeight="560.5242387353735" fitWidth="613.8060302734375" focusTraversable="false" layoutX="16.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" visible="true">
+      <image>
+        <Image url="@../resources/images/pass.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Pane layoutX="648.0" layoutY="60.0" prefHeight="531.9999000000025" prefWidth="379.0" styleClass="background_pass2">
+      <children>
+        <Line endX="-104.0" endY="429.0" layoutX="104.0" layoutY="107.0" startX="-106.0" startY="-105.0" strokeWidth="2.0">
+          <stroke>
+            <Color blue="0.380" green="0.380" red="0.380" fx:id="x1" />
+          </stroke>
+        </Line>
+        <Line endX="-92.0" endY="421.0" layoutX="471.0" layoutY="111.0" startX="-92.0" startY="-110.0" stroke="$x1" strokeWidth="2.0" />
+        <Line endX="35.0" endY="431.0" layoutX="-32.0" layoutY="104.0" startX="408.0" startY="429.0" stroke="$x1" strokeWidth="2.0" />
+        <Line endX="30.0" endY="429.0" layoutX="-31.0" layoutY="-430.0" startX="408.0" startY="430.0" stroke="$x1" strokeWidth="2.0" />
+        <Label alignment="TOP_CENTER" blendMode="LIGHTEN" contentDisplay="LEFT" focusTraversable="false" layoutX="59.0" layoutY="47.0" prefHeight="39.90234375" prefWidth="261.70703125" text="!BIENVENIDOS¡" textFill="WHITE" textOverrun="ELLIPSIS" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold Italic" size="35.0" />
+          </font>
+        </Label>
+        <Label alignment="TOP_CENTER" blendMode="LIGHTEN" layoutX="119.0" layoutY="141.0" prefHeight="63.552734375" prefWidth="141.0" text="Sign In" textAlignment="LEFT" textFill="WHITE" wrapText="false">
+          <font>
+            <Font name="System Bold" size="35.0" />
+          </font>
+        </Label>
+        <Label layoutX="31.0" layoutY="241.0" text="USUARIO:" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="23.0" fx:id="x2" />
+          </font>
+        </Label>
+        <Line endX="-104.0" endY="429.0" layoutX="137.0" layoutY="-155.0" startX="223.0" startY="428.0" stroke="$x1" strokeWidth="2.0" />
+        <TextField fx:id="usuario" alignment="CENTER_LEFT" layoutX="148.0" layoutY="240.0" opacity="1.0" prefWidth="200.0" promptText="" styleClass="textfield_pass" text="" visible="true" />
+        <Label font="$x2" layoutX="31.0" layoutY="288.0" text="CONTRASEÑA:" textFill="WHITE" />
+        <Line endX="-104.0" endY="429.0" layoutX="136.0" layoutY="-108.0" startX="223.0" startY="428.0" stroke="$x1" strokeWidth="2.0" />
+        <PasswordField fx:id="password" layoutX="197.0" layoutY="287.0" prefWidth="141.0001220703125" styleClass="textfield_pass" />
+        <Button id="entrar" layoutX="82.0" layoutY="405.0" mnemonicParsing="false" prefHeight="32.552734375" prefWidth="239.0" styleClass="button_pass" text="Entrar" textOverrun="ELLIPSIS" />
+      </children>
+    </Pane>
+  </children>
+  <stylesheets>
+    <URL value="@../resources/MyStyle.css" />
+  </stylesheets>
+</AnchorPane>
