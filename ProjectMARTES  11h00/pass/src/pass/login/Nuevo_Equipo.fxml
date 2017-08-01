@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="386.0" prefWidth="600.0000999999975" styleClass="background_pass2" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pass.login.Nuevo_EquipoController">
+  <children>
+    <Label layoutX="59.0" layoutY="47.0" text="REGISTRAR EQUIPO" textAlignment="LEFT" textFill="WHITE" underline="false">
+      <font>
+        <Font name="System Bold" size="25.0" />
+      </font>
+    </Label>
+    <Line endX="415.0" endY="-1.0" layoutX="161.0" layoutY="84.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+    <Label layoutX="59.0" layoutY="111.0" text="NOMBRE:" textFill="WHITE">
+      <font>
+        <Font size="20.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Line endX="415.0" endY="-1.0" layoutX="161.0" layoutY="148.0" startX="-100.0" stroke="WHITE" strokeWidth="2.0" />
+    <Label font="$x1" layoutX="336.0" layoutY="180.0" text="JUEGOS" textFill="WHITE" />
+    <ComboBox layoutX="423.0" layoutY="183.0" prefHeight="21.0" prefWidth="154.0" promptText="SELECCION">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <TextField layoutX="167.0" layoutY="108.0" prefWidth="267.0" styleClass="textfield_pass2" text="" />
+    <Button layoutX="310.0" layoutY="325.0" mnemonicParsing="false" styleClass="button_pass" text="GUARDAR" />
+    <Button layoutX="452.0" layoutY="325.0" mnemonicParsing="false" styleClass="button_pass" text="CANCELAR" />
+  </children>
+  <stylesheets>
+    <URL value="@../resources/MyStyle.css" />
+  </stylesheets>
+</AnchorPane>
