@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="407.0" minWidth="799.0" prefHeight="574.0" prefWidth="879.0" styleClass="background_pass2" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pass.login.Nuevo_PlayerController">
+  <children>
+    <ImageView id="WhatsApp Image 2017-07-25 at 9.39.48 AM" fitHeight="574.0" fitWidth="721.0" layoutX="158.0" layoutY="0.0" opacity="0.24" pickOnBounds="true">
+      <image>
+        <Image url="@../resources/images/WhatsApp%20Image%202017-07-25%20at%209.39.48%20AM.jpeg" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Button layoutX="14.0" layoutY="509.0" mnemonicParsing="false" prefWidth="127.0" styleClass="button_pass" text="CANCELAR" />
+    <Label layoutX="182.0" layoutY="36.0" text="JUGADORES SOFTWARE GAMER FEST " textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <Button layoutX="182.0" layoutY="107.0" mnemonicParsing="false" prefWidth="155.0" styleClass="button_pass" text="MODIFICAR" />
+    <Button layoutX="369.0" layoutY="107.0" mnemonicParsing="false" prefWidth="118.0" styleClass="button_pass" text="ELIMINAR" />
+    <Line endX="561.0" endY="-2.0" layoutX="282.0" layoutY="85.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+    <TextField editable="true" layoutX="622.0" layoutY="107.0" prefHeight="32.0" prefWidth="200.0" />
+  </children>
+  <stylesheets>
+    <URL value="@../resources/MyStyle.css" />
+  </stylesheets>
+</AnchorPane>

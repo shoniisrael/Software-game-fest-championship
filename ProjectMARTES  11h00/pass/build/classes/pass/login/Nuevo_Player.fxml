@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="407.0" minWidth="799.0" prefHeight="574.0" prefWidth="879.0" styleClass="background_pass2" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pass.login.Nuevo_PlayerController">
+  <children>
+    <ImageView id="xbox-283116_1920" fitHeight="574.0" fitWidth="729.0" layoutX="150.0" layoutY="0.0" opacity="0.22" pickOnBounds="true">
+      <image>
+        <Image url="@../resources/images/xbox-283116_1920.jpg" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Button layoutX="14.0" layoutY="461.0" mnemonicParsing="false" prefWidth="127.0" styleClass="button_pass" text="GUARDAR" />
+    <Button layoutX="14.0" layoutY="509.0" mnemonicParsing="false" prefWidth="127.0" styleClass="button_pass" text="CANCELAR" />
+    <Label layoutX="182.0" layoutY="36.0" text="PARTICIPANTE" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <Label layoutX="199.0" layoutY="133.0" text="NOMBRE:" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="15.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="199.0" layoutY="187.0" text="CEDULA:" textFill="WHITE" />
+    <Label font="$x1" layoutX="199.0" layoutY="233.0" text="JUEGO:" textFill="WHITE" />
+    <Label font="$x1" layoutX="199.0" layoutY="277.0" text="TIPO DE JUEGO:" textFill="WHITE" />
+    <Label font="$x1" layoutX="194.0" layoutY="324.0" text="INDIVIDUAL" textFill="WHITE" />
+    <Label font="$x1" layoutX="540.0" layoutY="320.0" text="EQUIPOS" textFill="WHITE" />
+    <ComboBox editable="false" focusTraversable="true" layoutX="308.0" layoutY="324.0" opacity="1.0" prefHeight="21.0" prefWidth="155.0" promptText="Seleccion" visible="true">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <ComboBox editable="false" focusTraversable="true" layoutX="637.0" layoutY="319.0" opacity="1.0" prefHeight="21.0" prefWidth="155.0" promptText="Seleccion" visible="true">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Button layoutX="192.0" layoutY="363.0" mnemonicParsing="false" prefWidth="118.0" styleClass="button_pass" text="AÑADIR" />
+    <Button layoutX="345.0" layoutY="363.0" mnemonicParsing="false" prefWidth="118.0" styleClass="button_pass" text="QUITAR" />
+    <Button layoutX="545.0" layoutY="363.0" mnemonicParsing="false" prefWidth="118.0" styleClass="button_pass" text="AÑADIR" />
+    <Button layoutX="698.0" layoutY="363.0" mnemonicParsing="false" prefWidth="118.0" styleClass="button_pass" text="QUITAR" />
+    <Button layoutX="581.0" layoutY="525.0" mnemonicParsing="false" prefWidth="195.0" styleClass="button_pass" text="NUEVO EQUIPO" />
+    <RadioButton layoutX="345.0" layoutY="277.0" mnemonicParsing="false" text="INIDIVIDUAL" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="12.0" fx:id="x2" />
+      </font>
+    </RadioButton>
+    <RadioButton font="$x2" layoutX="468.0" layoutY="277.0" mnemonicParsing="false" text="GRUPAL" textFill="WHITE" />
+    <TextArea layoutX="192.0" layoutY="417.0" prefHeight="99.0" prefWidth="271.0" wrapText="true" />
+    <TextArea layoutX="540.0" layoutY="417.0" prefHeight="99.0" prefWidth="276.0" wrapText="true" />
+    <Line endX="561.0" endY="-2.0" layoutX="282.0" layoutY="85.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+    <Line endX="531.0" endY="-1.0" layoutX="301.0" layoutY="266.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+    <Line endX="253.0" endY="-1.0" layoutX="300.0" layoutY="155.0" startX="-100.0" stroke="WHITE" strokeWidth="2.0" />
+    <Line endX="249.0" endY="0.0" layoutX="300.0" layoutY="208.0" startX="-100.0" stroke="WHITE" strokeWidth="2.0" />
+    <TextField blendMode="LIGHTEN" disable="false" focusTraversable="false" layoutX="282.0" layoutY="123.0" mouseTransparent="false" opacity="1.0" pickOnBounds="false" prefWidth="271.0" styleClass="textfield_pass" text="" visible="true" />
+    <TextField blendMode="LIGHTEN" layoutX="282.0" layoutY="174.0" opacity="1.0" prefWidth="271.0" styleClass="textfield_pass" />
+  </children>
+  <stylesheets>
+    <URL value="@../resources/MyStyle.css" />
+  </stylesheets>
+</AnchorPane>
